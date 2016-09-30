@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.requires_arc          = true
   s.source                = { :git => "https://github.com/Tap-Payments/goTapAPI_iOS.git", :tag => "#{s.version}" }
-  s.source_files          = "goTapAPI"
+  s.source_files          = "goTapAPI/**/*"
   s.public_header_files   = "goTapAPI/goTapAPI.h"
   s.frameworks            = "Foundation", "UIKit"
   s.dependency 'AFNetworking'
