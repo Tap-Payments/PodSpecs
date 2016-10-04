@@ -16,5 +16,6 @@ Pod::Spec.new do |s|
   s.public_header_files   = "goTapAPI/goTapAPI.h"
   s.frameworks            = "Foundation", "UIKit"
   s.dependency 'AFNetworking'
+  s.dependency 'HCYoutubeParser'
 
 end
