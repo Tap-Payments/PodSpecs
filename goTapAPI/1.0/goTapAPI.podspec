@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.requires_arc          = true
   s.source                = { :git => "https://github.com/Tap-Payments/goTapAPI_iOS.git", :tag => "#{s.version}" }
   s.source_files          = "goTapAPI/**/*"
+  s.exclude_files         = "goTapAPI/goTapAPI/*"
   s.public_header_files   = "goTapAPI/goTapAPI.h"
   s.frameworks            = "Foundation", "UIKit"
   s.dependency 'AFNetworking'
