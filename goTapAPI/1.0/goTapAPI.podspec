@@ -15,8 +15,9 @@ Pod::Spec.new do |s|
   s.source_files          = "goTapAPI/**/*"
   s.exclude_files         = "goTapAPI/goTapAPI/*"
   s.public_header_files   = "goTapAPI/goTapAPI.h"
-  s.frameworks            = "Foundation", "UIKit"
+  s.frameworks            = "Foundation", "UIKit", "CFNetwork"
   s.dependency 'AFNetworking'
   s.dependency 'HCYoutubeParser'
+  s.dependency 'SDWebImage'
 
 end
