@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
     s.author = { "Dennis Pashkov" => "d.pashkov@tap.com.kw" }
     s.homepage = "https://github.com/Tap-Payments/SwiftFixes.git"
     s.source = { :git => "https://github.com/Tap-Payments/SwiftFixes.git", :tag => "#{s.version}"}
-    s.source_files = "SwiftFixes/*.{h, m}"
+    s.source_files = "SwiftFixes/*.{h,m}"
     s.frameworks = "CoreGraphics", "UIKit", "Foundation"
+    s.requires_arc = true
 
 end
