@@ -30,7 +30,7 @@ Pod::Spec.new do |tapGLKit|
     tapGLKit.subspec 'ArrowView' do |arrowView|
 
         arrowView.source_files = "TapGLKit/Source/ArrowView/*.{swift}"
-        arrowView.resources = "TapGLKit/Shaders/ArrowView/*.{vsh, fsh}"
+        arrowView.resources = "TapGLKit/Shaders/ArrowView/*.{vsh,fsh}"
         arrowView.dependency 'TapGLKit/Core'
 
     end
