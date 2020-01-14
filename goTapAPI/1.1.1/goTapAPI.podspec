@@ -1,4 +1,4 @@
-Pod::Spec.new do |s|
+Pod::Spec.new do |s| 
 
   s.name                  = "goTapAPI"
   s.version               = "1.1.1"
